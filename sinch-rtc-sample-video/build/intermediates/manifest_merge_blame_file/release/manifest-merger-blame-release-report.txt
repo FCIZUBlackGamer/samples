@@ -1,0 +1,226 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sinch.android.rtc.sample.video"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:7:5-9:39
+12        android:name="android.hardware.microphone"
+12-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:8:13-55
+13        android:required="false" />
+13-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:9:13-37
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:11:5-66
+15-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:11:22-64
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:12:5-70
+16-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:12:22-68
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:13:5-79
+17-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:13:22-77
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:14:5-74
+18-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:14:22-72
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:15:5-78
+19-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:15:22-76
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:16:5-64
+20-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:16:22-62
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:25:5-68
+21-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:25:22-65
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+24
+25    <application
+25-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:18:5-38:19
+26        android:allowBackup="true"
+26-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:19:13-39
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:icon="@drawable/icon"
+28-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:20:13-42
+29        android:label="@string/app_name"
+29-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:21:13-45
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:22:13-44
+31        <service android:name="com.sinch.android.rtc.sample.video.SinchService" />
+31-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:23:9-57
+31-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:23:18-46
+32
+33        <activity
+33-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:24:9-32:20
+34            android:name="com.sinch.android.rtc.sample.video.LoginActivity"
+34-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:25:17-46
+35            android:label="@string/app_name"
+35-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:26:17-49
+36            android:screenOrientation="portrait" >
+36-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:27:17-53
+37            <intent-filter>
+37-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:28:13-31:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:29:17-68
+38-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:30:17-76
+40-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:30:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:33:9-34:82
+44            android:name="com.sinch.android.rtc.sample.video.CallScreenActivity"
+44-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:33:19-53
+45            android:configChanges="keyboardHidden|orientation|screenSize" />
+45-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:34:19-80
+46        <activity
+46-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:35:9-36:45
+47            android:name="com.sinch.android.rtc.sample.video.IncomingCallScreenActivity"
+47-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:35:19-61
+48            android:noHistory="true"
+48-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:36:19-43
+49            android:screenOrientation="portrait" />
+49-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:35:62-98
+50        <activity
+50-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:37:9-91
+51            android:name="com.sinch.android.rtc.sample.video.PlaceCallActivity"
+51-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:37:19-52
+52            android:screenOrientation="portrait" />
+52-->C:\Users\Dell\Downloads\sinch-android-rtc-3.17.4\samples\sinch-rtc-sample-video\AndroidManifest.xml:37:53-89
+53
+54        <service android:name="com.sinch.android.rtc.internal.client.fcm.InstanceIDTokenService" >
+54-->[:sinch-android-rtc:3.17.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bffeeb113593a9bf239b3b78f080539\jetified-sinch-android-rtc-3.17.4\AndroidManifest.xml:10:9-14:19
+54-->[:sinch-android-rtc:3.17.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bffeeb113593a9bf239b3b78f080539\jetified-sinch-android-rtc-3.17.4\AndroidManifest.xml:10:18-97
+55            <intent-filter>
+55-->[:sinch-android-rtc:3.17.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bffeeb113593a9bf239b3b78f080539\jetified-sinch-android-rtc-3.17.4\AndroidManifest.xml:11:13-13:29
+56                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+56-->[:sinch-android-rtc:3.17.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bffeeb113593a9bf239b3b78f080539\jetified-sinch-android-rtc-3.17.4\AndroidManifest.xml:12:17-80
+56-->[:sinch-android-rtc:3.17.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bffeeb113593a9bf239b3b78f080539\jetified-sinch-android-rtc-3.17.4\AndroidManifest.xml:12:25-77
+57            </intent-filter>
+58        </service>
+59
+60        <receiver
+60-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+61            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+61-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+62            android:enabled="true"
+62-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+63            android:exported="false" >
+63-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+64        </receiver>
+65        <receiver
+65-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+66            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+66-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+68            android:exported="true"
+68-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+69            android:permission="android.permission.INSTALL_PACKAGES" >
+69-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+70            <intent-filter>
+70-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+71                <action android:name="com.android.vending.INSTALL_REFERRER" />
+71-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+71-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+72            </intent-filter>
+73        </receiver>
+74
+75        <service
+75-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+76            android:name="com.google.android.gms.measurement.AppMeasurementService"
+76-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+77            android:enabled="true"
+77-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+78            android:exported="false" />
+78-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+79        <service
+79-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+80            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+80-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+81            android:enabled="true"
+81-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+83            android:permission="android.permission.BIND_JOB_SERVICE" />
+83-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+84        <service
+84-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:27:9-33:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:28:13-84
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d7ae8758474b4ec3c11a13b1ed2f7b05\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+87            android:exported="false" >
+87-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:29:13-37
+88            <meta-data
+88-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+89                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+89-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+92                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+92-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+94        </service>
+95
+96        <receiver
+96-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+97            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+97-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+98            android:exported="true"
+98-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+99            android:permission="com.google.android.c2dm.permission.SEND" >
+99-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+100            <intent-filter>
+100-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+101                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+101-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+101-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+102            </intent-filter>
+103        </receiver>
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d7ae8758474b4ec3c11a13b1ed2f7b05\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d7ae8758474b4ec3c11a13b1ed2f7b05\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+107            android:authorities="com.sinch.android.rtc.sample.video.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d7ae8758474b4ec3c11a13b1ed2f7b05\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d7ae8758474b4ec3c11a13b1ed2f7b05\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d7ae8758474b4ec3c11a13b1ed2f7b05\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\588996f97ed16e0c7fa56e4a25892589\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\588996f97ed16e0c7fa56e4a25892589\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\588996f97ed16e0c7fa56e4a25892589\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+119    </application>
+120
+121</manifest>

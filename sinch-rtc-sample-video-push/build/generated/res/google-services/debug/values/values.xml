@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">202036706940-eiimhg7j0bb499vnt4bjvec3he3lvp2l.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://test-sinch-android-rtc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">202036706940</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDshYghoQvRiM-1DzSkR8sjXID6IrNtUU</string>
+    <string name="google_app_id" translatable="false">1:202036706940:android:020859cd3ff5eb218493f9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDshYghoQvRiM-1DzSkR8sjXID6IrNtUU</string>
+    <string name="google_storage_bucket" translatable="false">test-sinch-android-rtc.appspot.com</string>
+    <string name="project_id" translatable="false">test-sinch-android-rtc</string>
+</resources>

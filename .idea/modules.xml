@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/samples.iml" filepath="$PROJECT_DIR$/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinch-rtc-sample-calling/sinch-rtc-sample-calling.iml" filepath="$PROJECT_DIR$/sinch-rtc-sample-calling/sinch-rtc-sample-calling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinch-rtc-sample-pstn/sinch-rtc-sample-pstn.iml" filepath="$PROJECT_DIR$/sinch-rtc-sample-pstn/sinch-rtc-sample-pstn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinch-rtc-sample-push/sinch-rtc-sample-push.iml" filepath="$PROJECT_DIR$/sinch-rtc-sample-push/sinch-rtc-sample-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinch-rtc-sample-video/sinch-rtc-sample-video.iml" filepath="$PROJECT_DIR$/sinch-rtc-sample-video/sinch-rtc-sample-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinch-rtc-sample-video-filter/sinch-rtc-sample-video-filter.iml" filepath="$PROJECT_DIR$/sinch-rtc-sample-video-filter/sinch-rtc-sample-video-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinch-rtc-sample-video-push/sinch-rtc-sample-video-push.iml" filepath="$PROJECT_DIR$/sinch-rtc-sample-video-push/sinch-rtc-sample-video-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinch-rtc-sample-video-screenshot/sinch-rtc-sample-video-screenshot.iml" filepath="$PROJECT_DIR$/sinch-rtc-sample-video-screenshot/sinch-rtc-sample-video-screenshot.iml" />
+    </modules>
+  </component>
+</project>

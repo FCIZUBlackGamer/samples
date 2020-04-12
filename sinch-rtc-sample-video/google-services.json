@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202036706940",
+    "firebase_url": "https://test-sinch-android-rtc.firebaseio.com",
+    "project_id": "test-sinch-android-rtc",
+    "storage_bucket": "test-sinch-android-rtc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202036706940:android:87aef415c3b2b6718493f9",
+        "android_client_info": {
+          "package_name": "com.sinch.android.rtc.sample.video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202036706940-cc7mvi7gese5hr0ffoi73ivj5f8dnc7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sinch.android.rtc.sample.video",
+            "certificate_hash": "56515a54651330bcdcd5df2c03d5bb65126b5c7e"
+          }
+        },
+        {
+          "client_id": "202036706940-eiimhg7j0bb499vnt4bjvec3he3lvp2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDshYghoQvRiM-1DzSkR8sjXID6IrNtUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202036706940-eiimhg7j0bb499vnt4bjvec3he3lvp2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
